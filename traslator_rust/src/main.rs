@@ -21,7 +21,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let url = "https://google-translator9.p.rapidapi.com/v2";
 
     let mut headers = header::HeaderMap::new();
-    headers.insert("x-rapidapi-key", header::HeaderValue::from_static("0842c31e4dmsh36680735ad97183p146d4bjsn1ccbe0e6b157"));
+    headers.insert("x-rapidapi-key", header::HeaderValue::from_static("<API KEY>"));
     headers.insert("x-rapidapi-host", header::HeaderValue::from_static("google-translator9.p.rapidapi.com"));
     headers.insert("Content-Type", header::HeaderValue::from_static("application/json"));
 
